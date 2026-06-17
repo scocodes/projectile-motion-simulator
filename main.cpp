@@ -9,7 +9,7 @@ int main(){
     int t = 10;
     int a = 10;
     double s = suvat::position_init(u, t, a);
-    std::cout << "You are at: " << s;
+    std::cout << "You are at: " << s << '\n';
     return 0;
 }
 

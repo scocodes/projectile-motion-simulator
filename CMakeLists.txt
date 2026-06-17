@@ -5,7 +5,7 @@ project(ProjectileSimulator)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(projectile_simulator
-    src/main.cpp
+    main.cpp
     src/suvat.cpp
 )
 
