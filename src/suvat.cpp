@@ -24,3 +24,10 @@ double velocity_time(int u, int a, int t){
     return v;
 }
 }
+
+namespace outputs{
+void position(int u, int t, int a){
+    double s = suvat::position_init(u, t, a);
+    std::cout << "You are at: " << s << " m" <<'\n';
+}
+}
