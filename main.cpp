@@ -6,14 +6,14 @@
 
 
 int main(){
-    double v0 = 100;
+    double v0 = 50;
     double theta = 45;
-    double dt = 100;
+    double dt = 0.1;
     double h0 = 0;
     Projectile proj(v0, theta, h0, dt);
-    proj.output();
+    proj.state_update();
+    proj.ouputTrajCSV();
 
     return 0;
 
 }
-

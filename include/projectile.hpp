@@ -3,7 +3,6 @@
 #include <iostream>
 #include <vector>
 #include "state.hpp"
-#include <cmath>
 
 class Projectile{
     public:
@@ -12,6 +11,8 @@ class Projectile{
             double degToRad();
             Results basic_range_height();
             void output();
+            std::vector<State> state_update();
+            void ouputTrajCSV();
             
     private:
         double v0;
@@ -21,5 +22,6 @@ class Projectile{
         State state;
         Results results;
         double grav = 9.81;
+        std::vector<State> trajectory;
         
     };
