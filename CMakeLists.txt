@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(projectile_simulator
     main.cpp
     src/suvat.cpp
+    src/projectile.cpp
 )
 
 target_include_directories(projectile_simulator
