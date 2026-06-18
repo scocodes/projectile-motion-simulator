@@ -9,7 +9,6 @@ int main(){
     int t = 10;
     int a = 10;
     outputs::position(u, t, a);
-    
     return 0;
 }
 
